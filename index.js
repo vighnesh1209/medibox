@@ -10,7 +10,8 @@ firebase.auth().onAuthStateChanged(function(user) {
     if(user != null){
 
       var email_id = user.email;
-      document.getElementById("user_para").innerHTML = "Welcome User : " + email_id;
+      //document.getElementById("user_para").innerHTML = "Welcome User : " + email_id;
+      location.replace("https://www.w3schools.com")
 
     }
 
